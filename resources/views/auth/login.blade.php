@@ -4,8 +4,8 @@
 
     <div class="space-y-8">
         <div>
-            <div class="inline-flex items-center justify-center h-10 w-10 rounded-full bg-indigo-600/20 mb-6">
-                <span class="h-5 w-5 rounded-full bg-indigo-500"></span>
+            <div class="inline-flex items-center justify-center h-14 w-14 rounded-full bg-slate-900/60 ring-2 ring-indigo-500/40 mb-6 overflow-hidden">
+                <img src="{{ asset('letter-m_9326491.png') }}" alt="Logo" class="h-10 w-10 object-contain" />
             </div>
             <h1 class="text-2xl md:text-3xl font-semibold text-white mb-1">Sign in to your account</h1>
             <p class="text-sm text-slate-400">
