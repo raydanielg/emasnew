@@ -1,4 +1,3 @@
 <?php
-// Redirect all requests to the public directory (without exposing index.php in the URL)
-header('Location: public/');
-exit;
+// Bootstrap Laravel by requiring the public/index.php front controller
+require __DIR__ . '/public/index.php';
